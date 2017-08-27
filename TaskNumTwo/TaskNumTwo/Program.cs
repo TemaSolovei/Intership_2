@@ -37,6 +37,12 @@ namespace TaskNumTwo
                     masPoints[i, 2] = tempX;
                     masPoints[i, 3] = tempY;
                 }
+
+                if (masPoints[i, 0] < masPoints[i, 1])
+                {
+                    minMax[i, 0] = masPoints[i, 0];
+                    minMax[i,1] = masPoints[i,1]
+                }
             }
         }
 

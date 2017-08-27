@@ -10,6 +10,7 @@ namespace TaskNumTwo
     {
         private static int size;
         private static int[,] masPoints;
+        private static int[,] minMax; // 0 - minX, 1 - maxX, 2 - minY, 3 - maxY
 
         static void Main(string[] args)
         {

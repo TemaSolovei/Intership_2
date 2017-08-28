@@ -38,7 +38,7 @@ namespace TaskNumTwo
                     masPoints[i, 3] = tempY;
                 }
 
-                if (masPoints[i, 0] < masPoints[i, 1])
+                if (masPoints[i, 0] < masPoints[i, 1]) //MinMaxX
                 {
                     minMax[i, 0] = masPoints[i, 0];
                     minMax[i, 1] = masPoints[i, 1];
@@ -54,7 +54,7 @@ namespace TaskNumTwo
                     minMax[i, 1] = masPoints[i, 0];
                 }
 
-                if (masPoints[i, 2] < masPoints[i, 3])
+                if (masPoints[i, 2] < masPoints[i, 3]) //MinMaxY
                 {
                     minMax[i, 2] = masPoints[i, 2];
                     minMax[i, 3] = masPoints[i, 3];
